@@ -38,11 +38,12 @@ Value keys will perform a `GET`, assuming the key is numeric and
 ~/redis-counts$ node counts
 ```
 
-You will see a screen listing all your keys, their current
-length/value and an approximate rate of change.
+You will see a screen, updating every second or so, listing all your
+keys, their current length/value and an approximate rate of change.
 
 ```
-my:redis:key         1952     +52/s
+my:important:key          1952     +512/s
+my:other:key             51701     -23/s
 ```
 
 `redis-counts` was developed for debugging [Straw](http://strawjs.com) topologies.
