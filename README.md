@@ -11,8 +11,8 @@ npm install
 cp config.sample.js config.js
 ```
 
-Edit `config.js` to point to your Redis instance if it's not
-localhost, and add they appropriate keys.
+Edit `config.js` to point to your Redis instance, and identify they
+keys you want to watch:
 
 ```javascript
 // get the llen of these
